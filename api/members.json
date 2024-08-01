@@ -1,0 +1,26 @@
+[
+    {
+        "id": "9f39aa0ecd",
+        "firstname": "John",
+        "password": "pass123",
+        "email": "john@example.com",
+        "gender": "male",
+        "profilePicture": ""
+    },
+    {
+        "id": "2c0735cabf",
+        "email": "jane@example.com",
+        "password": "pass123",
+        "gender": "female",
+        "firstname": "Jane",
+        "profilePicture": ""
+    },
+    {
+        "id": "15e45d1ca1",
+        "email": "jacob_355@hotmail.com",
+        "password": "Diagram123",
+        "firstname": "Jacob ",
+        "gender": "male",
+        "profilePicture": ""
+    }
+]

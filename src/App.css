@@ -1,0 +1,168 @@
+a.active {
+    color: #46c1bb !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+footer {
+    background-color: rgb(33, 37, 41);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+img:hover {
+    border: 2px solid #46c1bb;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#advanced-search-button {
+    cursor: pointer;
+    color: #0d6461;
+}
+
+#advanced-search-button:hover {
+    /* color: #34a39e; */
+    color: green;
+}
+
+.bottom {
+
+    background-color: #171219;
+    color: white;
+}
+
+.button {
+    border-radius: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.button > .span {
+    color: yellow;
+}
+
+.card-header {
+    background-image: linear-gradient(#46c1bb, #02524f);
+    color: white;
+    /* padding: 5px; */
+}
+
+.gender-center {
+    display: inline-block;
+    width: 30px;
+}
+
+.gender-radio {
+    margin-right: 5px;
+}
+
+.header {
+    border-bottom: 1px solid #213e45;
+}
+
+.left-card-home-page {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.login-card {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.logo {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.main-content {
+    padding-top: 50px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.page-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.active > .page-link {
+    background-color:#02524f;
+    border-color:#02524f;
+}
+
+.forgot-pw {
+    color: rgb(25, 135, 84);
+    cursor: pointer;
+}
+.forgot-pw:hover {
+    text-decoration: underline;
+}
+
+.search-label {
+    white-space: nowrap;
+}
+
+.search-result-item {
+    height: 120px;
+}
+
+.search-result-item:hover {
+    cursor: pointer;
+}
+
+.search-result-item:not(:first-child) {
+    border-top: 1px solid #ccc;
+    clear: both; 
+    padding-top: 10px;
+}
+
+.search-result-img {
+    width: 100px;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.search-result-img:hover {
+    border: none;
+}
+
+.top {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./assets/start-page-couple.jpg")
+}
+
+@media only screen and (max-width: 576px) {
+    .main-content {
+        padding-top: 70px;
+    }
+}

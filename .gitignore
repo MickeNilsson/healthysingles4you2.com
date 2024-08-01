@@ -1,0 +1,4 @@
+node_modules
+api/utils/settings.php
+api/mail/mail-settings.php
+api/utils/get-settings.php
